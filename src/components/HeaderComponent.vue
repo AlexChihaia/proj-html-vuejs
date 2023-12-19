@@ -27,7 +27,7 @@ export default {
                     page: 'Contact Me'
                 },
                 {
-                    page: 'Chart'
+                    page: ''
                 }
             ]
         }
@@ -41,23 +41,35 @@ export default {
                 <img src="../assets/img//author-logo-round-200x205.png" alt="Author Logo">
             </div>
             <ul class="navbar">
-                <li v-for=" object in navObj">
-                    {{ object.page }}
+                <li v-for=" (object, index) in navObj">
+                    <a href="#">
+                        {{ object.page }}
+                        <font-awesome-icon icon="fa-solid fa-cart-shopping" v-if="index === navObj.length - 1" />
+                    </a>
+
 
                 </li>
             </ul>
         </div>
 
         <div class="box">
-            <h2>Damon Vaugh</h2>
+            <h2>Damon Vaughn</h2>
             <h4>Best selling author and the most influential public intellectual in the western world right now.</h4>
             <p>- The new york times</p>
         </div>
 
         <div class="container-small">
             <div class="row">
-                <div class="col"><img src="../assets/img/" alt=""></div>
-                <div class="col"></div>
+                <div class="col">
+                    <img src="../assets/img/image.svg" alt="Kindle IMG">
+                </div>
+                <div class="col">
+                    <h4>Latest Book Release</h4>
+                    <h5>D. Vaughn Autobiography</h5>
+                    <p>Vestibulum tristique turpis in ipsum egestas lobortis. Duis maximus bibendum volutpat. Lorem ipsum
+                        dolor sit amet.</p>
+
+                </div>
             </div>
             <div class="row"></div>
         </div>
@@ -76,6 +88,7 @@ header {
     .logo {
         padding: 0 20px;
     }
+
 
     .container-big {
         display: flex;
@@ -98,7 +111,13 @@ header {
         h4 {
             font-family: 'DM Serif Display', serif;
             color: #ffff;
-            font-size: 3rem;
+            font-size: 2.6rem;
+        }
+
+        p {
+            color: $dark-font-color;
+            font-size: 1.5rem;
+            padding: 40px 0;
         }
     }
 
@@ -111,6 +130,29 @@ header {
 
         .row {
             display: flex;
+            padding: 0 70px;
+
+            .col {
+                margin-top: 55px;
+
+                h4 {
+                    font-size: 2rem;
+                    padding: 20px 0;
+                }
+
+                h5 {
+                    color: $font-color;
+                    text-transform: uppercase;
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    word-spacing: 0.6rem;
+                    padding: 25px 0;
+                    color: $dark-font-color;
+                }
+            }
         }
 
         /*debug*/
