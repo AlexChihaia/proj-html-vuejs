@@ -61,7 +61,7 @@ export default {
 @use '../assets/scss/partials/typography.scss' as *;
 
 header {
-    background-image: url(../assets/img/hero-07-2x.jpg);
+    background-image: url(../assets/img/footer-3.jpg);
     background-size: cover;
     position: relative;
 
