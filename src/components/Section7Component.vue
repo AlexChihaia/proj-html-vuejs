@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'AppFooter'
+    name: 'Section7'
 }
 </script>
 <template></template>
