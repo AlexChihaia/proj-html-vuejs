@@ -1,7 +1,7 @@
 <script>
 import About from './AboutComponent.vue';
 import Logos from './LogosComponent.vue';
-import Section3 from './Section3Component.vue';
+import AudioBook from './AudioBookComponent.vue';
 import Section4 from './Section4Component.vue';
 import Section5 from './Section5Component.vue';
 import Section6 from './Section6Component.vue';
@@ -11,7 +11,7 @@ export default {
     components: {
         About,
         Logos,
-        Section3,
+        AudioBook,
         Section4,
         Section5,
         Section6,
@@ -25,6 +25,7 @@ export default {
         <Logos />
     </section>
     <section>
+        <AudioBook />
 
     </section>
     <section>
