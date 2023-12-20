@@ -89,7 +89,6 @@ export default {
     </header>
 </template>
 <style scoped lang="scss">
-@use '../assets/scss/partials/typography.scss' as *;
 @use '../assets/scss/partials/variables.scss' as *;
 
 header {
