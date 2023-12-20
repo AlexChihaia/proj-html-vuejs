@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'Section1'
+    name: 'Logos'
 }
 </script>
 <template></template>

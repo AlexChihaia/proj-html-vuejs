@@ -1,6 +1,6 @@
 <script>
-import Section1 from './Section1Component.vue';
-import Section2 from './Section2Component.vue';
+import About from './AboutComponent.vue';
+import Logos from './LogosComponent.vue';
 import Section3 from './Section3Component.vue';
 import Section4 from './Section4Component.vue';
 import Section5 from './Section5Component.vue';
@@ -9,8 +9,8 @@ import Section7 from './Section7Component.vue';
 export default {
     name: 'AppMain',
     components: {
-        Section1,
-        Section2,
+        About,
+        Logos,
         Section3,
         Section4,
         Section5,
@@ -19,5 +19,27 @@ export default {
     },
 }
 </script>
-<template></template>
+<template>
+    <section>
+        <About />
+    </section>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+</template>
 <style scoped lang="scss"></style>
