@@ -22,6 +22,7 @@ export default {
 <template>
     <section>
         <About />
+        <Logos />
     </section>
     <section>
 
