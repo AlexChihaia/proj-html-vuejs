@@ -5,7 +5,7 @@ import AudioBook from './AudioBookComponent.vue';
 import ButtonRow from './ButtonRowComponent.vue';
 import RoundCard from './RoundCardComponent.vue';
 import Testimonials from './TestimonialsComponent.vue';
-import Section7 from './Section7Component.vue';
+import Events from './EventsComponent.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -15,7 +15,7 @@ export default {
         ButtonRow,
         RoundCard,
         Testimonials,
-        Section7
+        Events,
     },
 }
 </script>
@@ -35,8 +35,8 @@ export default {
             <Testimonials />
         </div>
     </section>
-    <section class="center">
-
+    <section class="center rose padding">
+        <Events />
     </section>
     <section>
 
@@ -51,6 +51,15 @@ export default {
 <style scoped lang="scss">
 @use '../assets/scss/partials/mixins.scss' as *;
 @use '../assets/scss/partials/variables.scss' as *;
+
+.rose {
+    background-color: #f3ece3;
+
+    &.padding {
+        padding-top: 75px;
+        padding-bottom: 90px;
+    }
+}
 
 .center {
     display: flex;
