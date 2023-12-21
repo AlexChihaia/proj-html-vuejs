@@ -43,21 +43,37 @@ export default {
 
         &.text {
             width: 470px;
+            text-align: center;
         }
     }
 
     h3 {
         font-family: 'DM Serif Display', serif;
+        color: #ffff;
+        font-size: 2rem;
+        word-spacing: 5px;
+        margin-top: 130px;
 
     }
 
     h4 {
         font-family: 'DM Sans', sans-serif;
+        word-spacing: 5px;
+        color: $font-color;
+        text-transform: uppercase;
+        font-size: 0.95rem;
+        padding-top: 25px;
+        padding-bottom: 30px;
 
     }
 
     p {
         font-family: 'DM Sans', sans-serif;
+        color: #86888e;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.9rem;
 
     }
 
