@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'Section5'
+    name: 'RoundCard'
 }
 </script>
 <template></template>

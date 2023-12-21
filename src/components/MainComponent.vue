@@ -2,8 +2,8 @@
 import About from './AboutComponent.vue';
 import Logos from './LogosComponent.vue';
 import AudioBook from './AudioBookComponent.vue';
-import Section4 from './Section4Component.vue';
-import Section5 from './Section5Component.vue';
+import ButtonRow from './ButtonRowComponent.vue';
+import RoundCard from './RoundCardComponent.vue';
 import Section6 from './Section6Component.vue';
 import Section7 from './Section7Component.vue';
 export default {
@@ -12,8 +12,8 @@ export default {
         About,
         Logos,
         AudioBook,
-        Section4,
-        Section5,
+        ButtonRow,
+        RoundCard,
         Section6,
         Section7
     },
@@ -28,10 +28,10 @@ export default {
         <AudioBook />
 
     </section>
-    <section>
-
+    <section class="center">
+        <ButtonRow />
     </section>
-    <section>
+    <section class="center">
 
     </section>
     <section>
@@ -44,4 +44,9 @@ export default {
 
     </section>
 </template>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.center {
+    display: flex;
+    justify-content: center;
+}
+</style>

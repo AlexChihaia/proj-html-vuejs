@@ -1,7 +1,7 @@
 /* Mixins */
 
 @mixin container {
-    width: 1490px;
+    width: 1470px;
 }
 
 @mixin button {
@@ -10,6 +10,7 @@
     padding: 10px 0;
     font-size: 0.75rem;
     border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
 
     &:hover {
         cursor: pointer;
@@ -19,4 +20,16 @@
 
 @mixin row {
     display: flex;
+
+    &.m {
+        width: 1350px;
+    }
+}
+
+@mixin border-card {
+    border-bottom-right-radius: 80px 80px;
+
+    h4 {
+        color: #ffff;
+    }
 }
