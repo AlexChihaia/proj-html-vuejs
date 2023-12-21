@@ -94,6 +94,12 @@ export default {
         }
     }
 
+    .logo-container {
+        img {
+            padding: 0 10px;
+        }
+    }
+
 
 }
 </style>
