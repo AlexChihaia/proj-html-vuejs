@@ -4,7 +4,7 @@ import Logos from './LogosComponent.vue';
 import AudioBook from './AudioBookComponent.vue';
 import ButtonRow from './ButtonRowComponent.vue';
 import RoundCard from './RoundCardComponent.vue';
-import Section6 from './Section6Component.vue';
+import Testimonials from './TestimonialsComponent.vue';
 import Section7 from './Section7Component.vue';
 export default {
     name: 'AppMain',
@@ -14,7 +14,7 @@ export default {
         AudioBook,
         ButtonRow,
         RoundCard,
-        Section6,
+        Testimonials,
         Section7
     },
 }
@@ -32,7 +32,7 @@ export default {
         <ButtonRow />
         <div class="row m">
             <RoundCard />
-
+            <Testimonials />
         </div>
     </section>
     <section class="center">
@@ -60,5 +60,9 @@ export default {
 
 .row {
     @include row;
+
+    &.m {
+        padding-bottom: 125px;
+    }
 }
 </style>
