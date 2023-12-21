@@ -46,8 +46,10 @@ h4 {
     font-family: 'DM Sans', sans-serif;
     text-transform: uppercase;
     color: $success-color;
+    font-size: 1.1rem;
     padding-top: 25px;
     padding-bottom: 35px;
+    word-spacing: 5px;
 }
 
 .row {
@@ -67,6 +69,7 @@ h4 {
         padding-top: 385px;
         padding-bottom: 45px;
         background-size: cover;
+
 
         &:hover {
             width: 95%;
