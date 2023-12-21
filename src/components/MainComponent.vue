@@ -6,6 +6,7 @@ import ButtonRow from './ButtonRowComponent.vue';
 import RoundCard from './RoundCardComponent.vue';
 import Testimonials from './TestimonialsComponent.vue';
 import Events from './EventsComponent.vue';
+import Subscribe from './SubscribeComponent.vue'
 export default {
     name: 'AppMain',
     components: {
@@ -16,6 +17,7 @@ export default {
         RoundCard,
         Testimonials,
         Events,
+        Subscribe,
     },
 }
 </script>
@@ -38,6 +40,7 @@ export default {
     <section class="center rose padding">
         <Events />
     </section>
+    <Subscribe />
     <section>
 
     </section>

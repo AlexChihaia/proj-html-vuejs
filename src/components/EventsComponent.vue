@@ -21,7 +21,7 @@ export default {
         <div class="card">
             <img src="../assets/img/hero-06-2x.jpg" alt="">
             <div class="text">
-                <h5>Open Book: Dialogues</h5>
+                <h5>Meet & Greet With Amanda</h5>
                 <hr>
                 <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a, Mauris blandit aliquet elit, eget tincidunt
                     nibh
@@ -32,7 +32,7 @@ export default {
         <div class="card">
             <img src="../assets/img/hero-06-2x.jpg" alt="">
             <div class="text">
-                <h5>Open Book: Dialogues</h5>
+                <h5>Chicago Book Signing</h5>
                 <hr>
                 <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a, Mauris blandit aliquet elit, eget tincidunt
                     nibh
