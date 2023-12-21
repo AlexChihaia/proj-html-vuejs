@@ -33,12 +33,14 @@ export default {
     h3 {
         font-family: 'DM Serif Display', serif;
         font-size: 2rem;
+        word-spacing: 3px;
+        font-weight: 500;
     }
 
     h4 {
         font-family: 'DM Sans', sans-serif;
         text-transform: uppercase;
-        color: $fountain-blue;
+        color: $success-color;
         padding-top: 25px;
         padding-bottom: 35px;
     }

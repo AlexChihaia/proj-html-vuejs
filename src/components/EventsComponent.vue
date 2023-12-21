@@ -93,6 +93,7 @@ h4 {
         padding-bottom: 40px;
         padding-top: 20px;
         word-spacing: 3px;
+        color: #838383;
     }
 
 

@@ -6,7 +6,9 @@ import ButtonRow from './ButtonRowComponent.vue';
 import RoundCard from './RoundCardComponent.vue';
 import Testimonials from './TestimonialsComponent.vue';
 import Events from './EventsComponent.vue';
-import Subscribe from './SubscribeComponent.vue'
+import Subscribe from './SubscribeComponent.vue';
+import Deeper from './DeeperComponent.vue';
+
 export default {
     name: 'AppMain',
     components: {
@@ -18,6 +20,7 @@ export default {
         Testimonials,
         Events,
         Subscribe,
+        Deeper,
     },
 }
 </script>
@@ -41,8 +44,8 @@ export default {
         <Events />
     </section>
     <Subscribe />
-    <section>
-
+    <section class="center">
+        <Deeper />
     </section>
     <section>
 
