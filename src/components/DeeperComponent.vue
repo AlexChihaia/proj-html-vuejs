@@ -7,20 +7,26 @@ export default {
     <h3>Dig A Little Deeper Into Damon Vaughn</h3>
     <h4>Find out more about the author himself</h4>
     <div class="row m">
-        <div class="border-card about">
-            <h4>About Me</h4>
-            <hr>
-            <h5>Vestibulum ante ipsum primis</h5>
+        <div class="col">
+            <div class="border-card about">
+                <h4>About Me</h4>
+                <hr>
+                <h5>Vestibulum ante ipsum primis</h5>
+            </div>
         </div>
-        <div class="border-card latest">
-            <h4>My Latest Book</h4>
-            <hr>
-            <h5>Vestibulum ante ipsum primis</h5>
+        <div class="col">
+            <div class="border-card latest">
+                <h4>My Latest Book</h4>
+                <hr>
+                <h5>Vestibulum ante ipsum primis</h5>
+            </div>
         </div>
-        <div class="border-card signing">
-            <h4>Book Signing</h4>
-            <hr>
-            <h5>Vestibulum ante ipsum primis</h5>
+        <div class="col">
+            <div class="border-card signing">
+                <h4>Book Signing</h4>
+                <hr>
+                <h5>Vestibulum ante ipsum primis</h5>
+            </div>
         </div>
     </div>
 </template>
@@ -48,15 +54,25 @@ h4 {
     text-align: center;
     @include row;
     justify-content: space-between;
-    gap: 55px;
+
     padding-bottom: 110px;
+
+    .col {
+        width: calc(100%/3);
+    }
 
     .border-card {
         @include border-card;
-        width: calc(100%/3);
+        margin: 0 27.5px;
         padding-top: 385px;
         padding-bottom: 45px;
         background-size: cover;
+
+        &:hover {
+            width: 95%;
+            height: 105%;
+        }
+
 
         h4 {
             font-family: 'DM Sans', sans-serif;
@@ -86,6 +102,7 @@ h4 {
 
         &.about {
             background-image: url(../assets/img/box-1.jpg);
+
         }
 
         &.latest {
