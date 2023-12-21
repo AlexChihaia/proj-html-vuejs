@@ -29,6 +29,7 @@
 @mixin border-card {
     border-bottom-right-radius: 80px 80px;
 
+    h2,
     h4 {
         color: #ffff;
     }

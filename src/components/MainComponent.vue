@@ -30,6 +30,10 @@ export default {
     </section>
     <section class="center">
         <ButtonRow />
+        <div class="row m">
+            <RoundCard />
+
+        </div>
     </section>
     <section class="center">
 
@@ -45,8 +49,16 @@ export default {
     </section>
 </template>
 <style scoped lang="scss">
+@use '../assets/scss/partials/mixins.scss' as *;
+@use '../assets/scss/partials/variables.scss' as *;
+
 .center {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.row {
+    @include row;
 }
 </style>

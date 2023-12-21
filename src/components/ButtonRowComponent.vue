@@ -50,5 +50,9 @@ button {
     background-color: $font-color;
     padding-left: 40px;
     padding-right: 40px;
+
+    &:hover {
+        background-color: #f4a700;
+    }
 }
 </style>
